@@ -1,0 +1,80 @@
+body {
+    font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    overflow-y: scroll;
+    background: url(/tmp/img/bg.png);
+}
+
+.button-success,
+    .button-error,
+    .button-warning,
+    .button-secondary {
+        color: white;
+        border-radius: 4px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .button-success {
+        background: rgb(28, 184, 65); 
+    }
+
+    .button-error {
+        background: rgb(202, 60, 60); 
+    }
+
+    .button-warning {
+        background: rgb(223, 117, 20); 
+    }
+
+    .button-secondary {
+        background: rgb(66, 184, 221); 
+    }
+
+.login-form {
+    margin: 0 auto;
+    width: 300px;
+    background-color: rgb(247, 234, 216);
+    position: relative;
+}
+
+.pure-form {
+      padding: 30px 0
+}
+
+.pure-form legend {
+    border-bottom: none;
+}
+
+.pure-button {
+    padding: .5em 4em;
+}
+
+.pure-form input[type=text], 
+.pure-form input[type=password],
+.pure-form select {
+    border-radius: 0px;
+    padding: 0.6em 1em;
+}
+
+.pure-table {
+    background-color: #fff;
+}
+
+.pure-table td {
+    border: 1px solid #cbcbcb;
+}
+
+.pure-table th {
+    text-align: left;
+    text-indent: 5px;
+    font-size: 80%;
+}
+
+.cources.pure-table td {
+    text-align: center;
+}
+
+.cources.pure-table td input {
+    width: 70px;
+}

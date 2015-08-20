@@ -1,0 +1,38 @@
+@media print {
+
+    @page {
+      size: A4;
+    }
+    @page {size: portrait}
+    /* Default left, right, top, bottom margin is 2cm */
+    @page { margin: 0 } 
+
+    body {
+        font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80%;
+        overflow-y: scroll;
+        background: none;
+    }
+
+    .pure-menu.pure-menu-horizontal,
+    .pure-menu.pure-menu-horizontal .pure-menu-heading {
+        display: none;
+    }
+
+    h3:first-of-type {
+        display: none;
+    }
+
+    h3 {
+        font-size: .8em;
+        margin: .3em 0;
+    }
+
+    .pure-table td,
+    .pure-table th {
+        padding: 0;
+    }
+
+}
